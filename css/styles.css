@@ -448,6 +448,32 @@ h1, h2, h3, h4, h5, h6, p{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
+    margin-bottom: 16px;
+}
+.button-subscribe{
+    display: flex;
+    gap: 24px;
+}
+.button-futer{
+    border-radius: 4px;
+    padding: 8px 24px;
+    width: 165px;
+    height: 40px;
+    background-color: #4d5ae5;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.text-buton{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        text-align: center;
+        color: #fff;
+}
+.ikon-button-futer{
+    fill: white;
 }
 /* backdrop */
 .backdrop{
