@@ -452,14 +452,22 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 .button-futer{
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
     border-radius: 4px;
     padding: 8px 24px;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     background-color: #4d5ae5;
     display: flex;
     align-items: center;
     gap: 16px;
+    justify-content: center;
+
 }
 .text-buton{
         font-weight: 500;
@@ -476,6 +484,7 @@ h1, h2, h3, h4, h5, h6, p{
 
 .input-mail{
     border: 1px solid #fff;
+    color: #ffffff;
     border-radius: 4px;
     width: 264px;
     height: 40px;
@@ -488,10 +497,14 @@ h1, h2, h3, h4, h5, h6, p{
     letter-spacing: 0.04em;
     padding-left: 16px;
 }
+.input-mail::placeholder{
+    color: #ffffff;
+}
 .input-text{
     display: flex;
     gap: 24px;
 }
+
 .button-subscribe{
     margin-left: 80px;
 }
