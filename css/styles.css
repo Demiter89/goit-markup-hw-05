@@ -469,14 +469,7 @@ h1, h2, h3, h4, h5, h6, p{
     justify-content: center;
 
 }
-.text-buton{
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        text-align: center;
-        color: #fff;
-}
+
 .ikon-button-futeier{
     fill: white;
 }
@@ -507,6 +500,9 @@ h1, h2, h3, h4, h5, h6, p{
 
 .button-subscribe{
     margin-left: 80px;
+}
+.ikon-button{
+    margin-left: 16px;
 }
 /* backdrop */
 .backdrop{
