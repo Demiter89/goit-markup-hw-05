@@ -486,6 +486,10 @@ border: 1px solid #fff;
     display: flex;
     gap: 24px
 }
+.input-text{
+    display: flex;
+    gap: 24px;
+}
 /* backdrop */
 .backdrop{
     position: fixed;
