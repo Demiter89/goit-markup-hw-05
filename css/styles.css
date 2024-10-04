@@ -450,10 +450,7 @@ h1, h2, h3, h4, h5, h6, p{
     color: #fff;
     margin-bottom: 16px;
 }
-.button-subscribe{
-    display: flex;
-    gap: 24px;
-}
+
 .button-futer{
     border-radius: 4px;
     padding: 8px 24px;
@@ -478,7 +475,7 @@ h1, h2, h3, h4, h5, h6, p{
 
 
 .input-mail{
-border: 1px solid #fff;
+    border: 1px solid #fff;
     border-radius: 4px;
     width: 264px;
     height: 40px;
@@ -489,6 +486,9 @@ border: 1px solid #fff;
 .input-text{
     display: flex;
     gap: 24px;
+}
+.button-subscribe{
+    margin-left: 80px;
 }
 /* backdrop */
 .backdrop{
