@@ -537,5 +537,12 @@ h1, h2, h3, h4, h5, h6, p{
 .backdrop:not(.is-open) .modal{
     transform: translate(-50%, -100%);
 }
-    
+.button-close{
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+.link-colose{
+    background-color: ;
+}
 
