@@ -501,9 +501,7 @@ h1, h2, h3, h4, h5, h6, p{
 .button-subscribe{
     margin-left: 80px;
 }
-.ikon-button{
-    margin-left: 16px;
-}
+
 /* backdrop */
 .backdrop{
     position: fixed;
@@ -655,6 +653,7 @@ h1, h2, h3, h4, h5, h6, p{
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 4px;
 }
 .checkbox-style:checked + .checkbox-puting > .checkbox-mayself {
     background-color: #404bbf;
