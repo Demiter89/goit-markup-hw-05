@@ -662,6 +662,7 @@ h1, h2, h3, h4, h5, h6, p{
 }
 .pravacy-plicy-link{
     color: #4d5ae5;
+    text-decoration: underline;
 }
 .rewiew-form-input-texteria::placeholder{
         font-weight: 400;

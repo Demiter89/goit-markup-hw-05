@@ -42,7 +42,7 @@
             <div class="container container-main-paragrph">
                 <h1 class="main-paragrph-title main-paragrph-size">Effective Solutions
                     for Your Business</h1>
-                    <button class="button button-size" type="button">Order Service</button>
+                    <button class="button button-size" type="button" data-modal-open>Order Service</button>
             </div>
         </section>
 
@@ -460,9 +460,9 @@
         </div>
         
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop is-open" data-modal>
         <div class="modal">
-            <button class="button-close" type="button">
+            <button class="button-close" type="button" data-modal-close>
                 <svg class="modal-close-btn" width="8" height="8">
                   <use href="./images/icons.svg#icon-close"></use>
                 </svg>
@@ -524,6 +524,7 @@
         </div>
 
     </div>
+    <script src="./js/modal.js"></script>
 
 </body>
 
