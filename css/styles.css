@@ -639,7 +639,7 @@ h1, h2, h3, h4, h5, h6, p{
 .form-input-text-chekbox{
     margin-bottom: 24px;
 }
-.heckbox-puting{
+.checkbox-puting{
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -656,8 +656,10 @@ h1, h2, h3, h4, h5, h6, p{
     justify-content: center;
     fill: transparent;
 }
-.checkbox-style:checked{
-    background-color: #F4F4FD;;
+.checkbox-style:checked + .checkbox-puting-within + .checkbox-mayself {
+    background-color: #404bbf;
+    fill: #F4F4FD;
+    border: none;
 }
 .pravacy-plicy-link{
     color: #4d5ae5;
