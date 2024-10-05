@@ -187,7 +187,7 @@ h1, h2, h3, h4, h5, h6, p{
         margin-bottom: 8px;
         border: 1px solid #8e8f99;
     }
-.company-description{
+.visually-hidden{
     position: absolute;
         width: 1px;
         height: 1px;
